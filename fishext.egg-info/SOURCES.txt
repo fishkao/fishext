@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+fishext/__init__.py
+fishext/extension.py
+fishext/urls.py
+fishext/views.py
+fishext.egg-info/PKG-INFO
+fishext.egg-info/SOURCES.txt
+fishext.egg-info/dependency_links.txt
+fishext.egg-info/entry_points.txt
+fishext.egg-info/top_level.txt
+fishext/templates/fishext/dashboard.html
