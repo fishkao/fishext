@@ -31,15 +31,6 @@ class FishExtension(Extension):
         pattern = patterns('', (r'^fishext/',
                                 include('fishext.urls')))
         self.url_hook = URLHook(self, pattern)
-        self.dashboard_hook = DashboardHook(
-            self,
-            entries = [
-                {
-                    'label': 'A Fishextendion Label',
-                    'url': settings.SITE_ROOT + 'fishext/',
-                }
-            ]
-        )
         self.navigationbar_hook = NavigationBarHook(
             self,
             entries = [
